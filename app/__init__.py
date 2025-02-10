@@ -2,6 +2,7 @@ from flask import Flask, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from config import Config
 from flask_jwt_extended import JWTManager
+from flask_cors import CORS
 
 jwt = JWTManager()
 
@@ -12,6 +13,9 @@ def create_app():
     app.config.from_object(Config)
 
     app.config['JWT_SECRET_KEY'] = '*PFiPoWY1vT]v6bL-Ty-?U)[L(}/yF)'  # Clé secrète pour JWT
+    
+    # Autoriser toutes les origines
+    CORS(app)
 
     db.init_app(app)
     jwt.init_app(app)
