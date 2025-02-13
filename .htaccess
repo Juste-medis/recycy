@@ -1,0 +1,8 @@
+PassengerEnabled on
+
+PassengerAppRoot /home/bazr6101/public_html/visionrec
+PassengerPython /home/bazr6101/public_html/visionrec/venv/bin/python3
+
+
+PassengerAppEnv development
+PassengerFriendlyErrorPages on

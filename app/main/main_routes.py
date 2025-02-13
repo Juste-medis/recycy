@@ -14,8 +14,15 @@ def index():
      
     return  """hello"""
 
+@main_bp.route("/hello")
+def indexhello():
+
+    return jsonify({"hello": "hello my friend"}), 200
+
+
+
 @main_bp.route('/upload', methods=['POST'])
-# @jwt_required()
+@jwt_required()
 def upload():
     if 'file' not in request.files:
         return jsonify({"success": False, "message": "Aucun fichier fourni"}), 400
@@ -27,16 +34,16 @@ def upload():
 
     # Traitement de l'image
     predicted_class, confidence = process_image(file)
-    # current_user = get_jwt_identity()
+    current_user = get_jwt_identity()
 
     # Enregistrement dans l'historique
-    # waste_history = WasteHistory(
-    #     user_id=current_user,
-    #     filename=file.filename,
-    #     prediction=predicted_class,
-    #     confidence=confidence
-    # )
-    # db.session.add(waste_history)
+    waste_history = WasteHistory(
+        user_id=current_user,
+        filename=file.filename,
+        prediction=predicted_class,
+        confidence=confidence
+    )
+    db.session.add(waste_history)
     db.session.commit()
 
     return jsonify({
