@@ -1,10 +1,12 @@
 # Routes principales de l'application
 from flask import request, jsonify, Blueprint
-from app.main.utils import process_image
+from app.routes.main.utils import process_image
 from app.models.waste_history import WasteHistory
 from app import db
 from datetime import datetime
 from flask_jwt_extended import  jwt_required, get_jwt_identity
+from werkzeug.utils import secure_filename
+import os
 
 main_bp = Blueprint("vision", __name__,)
 
@@ -14,15 +16,8 @@ def index():
      
     return  """hello"""
 
-@main_bp.route("/hello")
-def indexhello():
-
-    return jsonify({"hello": "hello my friend"}), 200
-
-
-
 @main_bp.route('/upload', methods=['POST'])
-@jwt_required()
+# @jwt_required()
 def upload():
     if 'file' not in request.files:
         return jsonify({"success": False, "message": "Aucun fichier fourni"}), 400
@@ -33,7 +28,10 @@ def upload():
   
 
     # Traitement de l'image
-    predicted_class, confidence = process_image(file)
+    filename = secure_filename(file.filename)
+    file.save(os.path.join('/home/juste/appython/recycy/app/static/', filename))
+    predicted_class, confidence = process_image(file,filename)
+
     current_user = get_jwt_identity()
 
     # Enregistrement dans l'historique

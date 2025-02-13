@@ -1,4 +1,674 @@
-🚀 Application démarrée avec Passenger
-🚀 Application démarrée avec Passenger
-[255 216 255 ... 199 255 217]
-[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 5s/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m5s[0m 5s/step
+2025-02-13 14:16:00,277 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:16:00] "[33mPOST /main/upload HTTP/1.1[0m" 404 -
+2025-02-13 14:16:06,399 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:16:06] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2025-02-13 14:16:55,289 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/__init__.py', reloading
+2025-02-13 14:16:55,675 [INFO] -  * Restarting with stat
+2025-02-13 14:16:56,489 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 14:16:56,592 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:16:56,592 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:16:56,592 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:16:56,593 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:16:56,888 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 14:16:57,431 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 14:16:57,439 [WARNING] -  * Debugger is active!
+2025-02-13 14:16:57,440 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 14:47:59,067 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 14:47:59,171 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:47:59,171 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:47:59,171 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:47:59,171 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:47:59,412 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 14:47:59,857 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 14:47:59,868 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 14:47:59,868 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 14:47:59,868 [INFO] -  * Restarting with stat
+2025-02-13 14:48:00,637 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 14:48:00,742 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:48:00,742 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:48:00,742 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:48:00,742 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:48:00,991 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 14:48:01,443 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 14:48:01,453 [WARNING] -  * Debugger is active!
+2025-02-13 14:48:01,455 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 14:48:08,050 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:48:08] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-02-13 14:51:09,271 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/__init__.py', reloading
+2025-02-13 14:51:09,597 [INFO] -  * Restarting with stat
+2025-02-13 14:51:10,443 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 14:51:10,551 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:51:10,551 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:51:10,551 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:51:10,551 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:51:10,834 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 14:51:11,463 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 14:51:11,474 [WARNING] -  * Debugger is active!
+2025-02-13 14:51:11,476 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 14:51:11,568 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:51:11] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-02-13 14:52:23,932 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/__init__.py', reloading
+2025-02-13 14:52:24,299 [INFO] -  * Restarting with stat
+2025-02-13 14:52:25,036 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 14:52:25,140 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:52:25,140 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:52:25,140 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 14:52:25,140 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 14:52:25,385 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 14:52:25,877 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 14:52:25,889 [WARNING] -  * Debugger is active!
+2025-02-13 14:52:25,891 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 14:55:29,039 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:55:29] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-02-13 14:56:49,691 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:56:49] "[33mGET /swagger HTTP/1.1[0m" 404 -
+2025-02-13 14:56:49,733 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:56:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-13 14:58:38,637 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 14:58:38,667 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,667 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,668 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 14:58:38,669 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,669 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 14:58:38,670 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,680 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,683 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,684 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,692 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,693 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,711 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,715 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,719 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 14:58:38,723 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 14:58:38,724 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 14:58:38,919 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 14:58:38,937 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 14:58:38,938 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 14:58:38,945 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 14:58:38,948 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 14:58:38,953 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:58:38] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 14:59:30,888 [INFO] - 127.0.0.1 - - [13/Feb/2025 14:59:30] "[31m[1mPOST /auth/login HTTP/1.1[0m" 415 -
+2025-02-13 15:00:33,366 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 15:00:33,389 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 15:00:33,391 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 15:00:33,395 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,395 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,396 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,398 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,402 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,404 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,410 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,418 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,425 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,431 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,435 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,440 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 15:00:33,447 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 15:00:33,447 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 15:00:33,686 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 15:00:33,687 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:00:33,688 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:00:33,692 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:00:33,693 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:00:33,696 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:00:33] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 15:01:54,048 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/auth/auth_routes.py', reloading
+2025-02-13 15:01:54,423 [INFO] -  * Restarting with stat
+2025-02-13 15:01:55,261 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:01:55,369 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:01:55,369 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:01:55,369 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:01:55,369 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:01:55,619 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:01:56,134 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:02:09,688 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:02:09,791 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:02:09,791 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:02:09,791 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:02:09,791 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:02:10,033 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:02:10,494 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:02:10,505 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 15:02:10,506 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 15:02:10,506 [INFO] -  * Restarting with stat
+2025-02-13 15:02:11,250 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:02:11,364 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:02:11,364 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:02:11,364 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:02:11,364 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:02:11,617 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:02:12,103 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:02:12,114 [WARNING] -  * Debugger is active!
+2025-02-13 15:02:12,116 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:04:19,677 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/auth/auth_routes.py', reloading
+2025-02-13 15:04:19,997 [INFO] -  * Restarting with stat
+2025-02-13 15:04:20,766 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:04:20,871 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:04:20,871 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:04:20,871 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:04:20,872 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:04:21,145 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:04:21,703 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:04:21,717 [WARNING] -  * Debugger is active!
+2025-02-13 15:04:21,719 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:04:25,189 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:04:25] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-02-13 15:04:41,169 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/auth/auth_routes.py', reloading
+2025-02-13 15:04:41,501 [INFO] -  * Restarting with stat
+2025-02-13 15:04:42,280 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:04:42,396 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:04:42,396 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:04:42,396 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:04:42,396 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:04:42,665 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:04:43,156 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:04:43,168 [WARNING] -  * Debugger is active!
+2025-02-13 15:04:43,170 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:04:44,581 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:04:44] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:05:14,817 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/auth/auth_routes.py', reloading
+2025-02-13 15:05:15,165 [INFO] -  * Restarting with stat
+2025-02-13 15:05:15,996 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:05:16,115 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:05:16,115 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:05:16,115 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:05:16,115 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:05:16,434 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:05:16,949 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:05:16,963 [WARNING] -  * Debugger is active!
+2025-02-13 15:05:16,964 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:06:30,106 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:06:30] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-02-13 15:08:48,379 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 15:08:48,410 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 15:08:48,411 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 15:08:48,412 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,413 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,415 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,417 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,427 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,428 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,431 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,439 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,446 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,469 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,476 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,478 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 15:08:48,485 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 15:08:48,486 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 15:08:48,659 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 15:08:48,661 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:08:48,662 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:08:48,667 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:08:48,669 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:08:48,673 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:08:48] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 15:09:52,460 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/__init__.py', reloading
+2025-02-13 15:09:52,786 [INFO] -  * Restarting with stat
+2025-02-13 15:09:53,595 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:09:53,719 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:09:53,719 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:09:53,719 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:09:53,719 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:09:54,028 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:09:54,565 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:09:54,577 [WARNING] -  * Debugger is active!
+2025-02-13 15:09:54,579 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:10:00,142 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 15:10:00,163 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 15:10:00,166 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,168 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,168 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 15:10:00,169 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,174 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,198 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,199 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,203 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,217 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,228 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,256 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,262 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,262 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 15:10:00,265 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 15:10:00,267 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 15:10:00,456 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 15:10:00,458 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:10:00,459 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:10:00,462 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:10:00,464 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:10:00,468 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:00] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 15:10:40,245 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:10:40] "[31m[1mPOST /auth/register HTTP/1.1[0m" 400 -
+2025-02-13 15:11:20,220 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:11:20] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-02-13 15:12:53,200 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/auth/auth_routes.py', reloading
+2025-02-13 15:12:53,495 [INFO] -  * Restarting with stat
+2025-02-13 15:12:54,215 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:12:54,316 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:12:54,317 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:12:54,317 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:12:54,317 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:12:54,564 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:12:55,033 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:13:14,279 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:13:14,384 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:13:14,384 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:13:14,384 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:13:14,384 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:13:14,629 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:13:15,086 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:13:15,098 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 15:13:15,099 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 15:13:15,099 [INFO] -  * Restarting with stat
+2025-02-13 15:13:15,811 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:13:15,915 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:13:15,915 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:13:15,915 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:13:15,915 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:13:16,183 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:13:16,690 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:13:16,703 [WARNING] -  * Debugger is active!
+2025-02-13 15:13:16,705 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:13:18,848 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:13:18] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:13:43,280 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/auth/auth_routes.py', reloading
+2025-02-13 15:13:43,735 [INFO] -  * Restarting with stat
+2025-02-13 15:13:44,551 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:13:44,668 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:13:44,668 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:13:44,668 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:13:44,668 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:13:44,924 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:13:45,418 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:13:45,429 [WARNING] -  * Debugger is active!
+2025-02-13 15:13:45,431 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:13:55,116 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:13:55] "[33mPOST /auth/loginf HTTP/1.1[0m" 404 -
+2025-02-13 15:13:58,680 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:13:58] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:14:00,527 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:14:00] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:14:01,009 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:14:01] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:14:01,565 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:14:01] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:14:34,456 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/__init__.py', reloading
+2025-02-13 15:14:34,796 [INFO] -  * Restarting with stat
+2025-02-13 15:14:35,562 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:14:35,668 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:14:35,668 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:14:35,669 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:14:35,669 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:14:36,012 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:14:36,530 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:26:12,422 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:26:12,525 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:26:12,525 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:26:12,525 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:26:12,525 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:26:12,768 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:26:13,238 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:26:34,331 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:26:34,444 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:26:34,444 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:26:34,444 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:26:34,444 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:26:34,711 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:26:35,169 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:26:35,180 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 15:26:35,180 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 15:26:35,181 [INFO] -  * Restarting with stat
+2025-02-13 15:26:35,975 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:26:36,087 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:26:36,087 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:26:36,087 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:26:36,087 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:26:36,337 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:26:36,816 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:26:36,828 [WARNING] -  * Debugger is active!
+2025-02-13 15:26:36,830 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:26:40,419 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:26:40] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:26:44,940 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:26:44] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:48:34,639 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:48:34,743 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:48:34,743 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:48:34,743 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:48:34,743 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:48:34,993 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:48:35,533 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:48:35,548 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 15:48:35,548 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 15:48:35,548 [INFO] -  * Restarting with stat
+2025-02-13 15:48:36,328 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:48:36,432 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:48:36,432 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:48:36,432 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:48:36,432 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:48:36,676 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:48:37,164 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:48:37,175 [WARNING] -  * Debugger is active!
+2025-02-13 15:48:37,176 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:49:21,116 [INFO] -  * Detected change in '/home/juste/appython/recycy/swagger_doc.py', reloading
+2025-02-13 15:49:21,410 [INFO] -  * Restarting with stat
+2025-02-13 15:49:22,142 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:49:22,266 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:49:22,266 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:49:22,266 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:49:22,266 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:49:22,542 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:49:23,019 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:49:23,033 [WARNING] -  * Debugger is active!
+2025-02-13 15:49:23,035 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:50:06,878 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/auth/auth_routes.py', reloading
+2025-02-13 15:50:07,191 [INFO] -  * Restarting with stat
+2025-02-13 15:50:07,986 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:50:08,085 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:50:08,085 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:50:08,085 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:50:08,085 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:50:08,328 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:50:08,811 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:51:05,357 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:51:05,462 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:51:05,462 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:51:05,462 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:51:05,462 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:51:05,707 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:51:06,151 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:51:06,164 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 15:51:06,164 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 15:51:06,164 [INFO] -  * Restarting with stat
+2025-02-13 15:51:06,885 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:51:06,995 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:51:06,995 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:51:06,995 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:51:06,995 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:51:07,279 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:51:07,779 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 15:51:07,792 [WARNING] -  * Debugger is active!
+2025-02-13 15:51:07,794 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 15:51:10,368 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 15:51:10,382 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 15:51:10,382 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,382 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,384 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,384 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 15:51:10,385 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,388 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,390 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,390 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,397 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,400 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,417 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,420 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,422 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 15:51:10,424 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 15:51:10,425 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 15:51:10,651 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 15:51:10,653 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:51:10,654 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 15:51:10,659 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:51:10,660 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 15:51:10,663 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:10] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 15:51:21,563 [INFO] - 127.0.0.1 - - [13/Feb/2025 15:51:21] "POST /auth/login HTTP/1.1" 200 -
+2025-02-13 15:55:16,111 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/__init__.py', reloading
+2025-02-13 15:55:16,520 [INFO] -  * Restarting with stat
+2025-02-13 15:55:17,594 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 15:55:17,711 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:55:17,711 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:55:17,711 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 15:55:17,711 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 15:55:18,067 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 15:55:19,021 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:02:47,498 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:02:47,628 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:02:47,628 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:02:47,628 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:02:47,628 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:02:47,905 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:02:48,657 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:02:48,673 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 16:02:48,673 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 16:02:48,673 [INFO] -  * Restarting with stat
+2025-02-13 16:02:49,533 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:02:49,656 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:02:49,656 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:02:49,656 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:02:49,656 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:02:50,018 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:02:50,889 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:02:50,907 [WARNING] -  * Debugger is active!
+2025-02-13 16:02:50,909 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:03:09,632 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 16:03:09,661 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 16:03:09,666 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 16:03:09,670 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,672 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,674 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,676 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,680 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,681 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,685 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,692 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,697 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,722 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,728 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,735 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 16:03:09,744 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 16:03:09,744 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:09] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 16:03:10,196 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:10] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 16:03:10,202 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:10] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:03:10,204 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:10] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:03:10,216 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:10] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:03:10,221 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:10] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:03:10,230 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:03:10] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 16:03:52,658 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:03:53,364 [INFO] -  * Restarting with stat
+2025-02-13 16:03:54,626 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:03:54,807 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:03:54,808 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:03:54,808 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:03:54,808 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:03:55,280 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:03:56,045 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:03:56,064 [WARNING] -  * Debugger is active!
+2025-02-13 16:03:56,066 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:04:55,755 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:04:56,245 [INFO] -  * Restarting with stat
+2025-02-13 16:04:57,535 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:04:57,692 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:04:57,692 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:04:57,692 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:04:57,692 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:04:58,108 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:04:59,036 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:04:59,049 [WARNING] -  * Debugger is active!
+2025-02-13 16:04:59,051 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:05:21,694 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:05:22,215 [INFO] -  * Restarting with stat
+2025-02-13 16:05:23,430 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:05:23,662 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:05:23,662 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:05:23,662 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:05:23,662 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:05:24,207 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:05:25,116 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:05:25,130 [WARNING] -  * Debugger is active!
+2025-02-13 16:05:25,132 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:05:52,948 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:05:53,547 [INFO] -  * Restarting with stat
+2025-02-13 16:05:54,631 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:05:54,763 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:05:54,763 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:05:54,763 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:05:54,763 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:05:55,148 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:05:56,053 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:05:56,065 [WARNING] -  * Debugger is active!
+2025-02-13 16:05:56,067 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:06:13,581 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:06:14,256 [INFO] -  * Restarting with stat
+2025-02-13 16:06:15,247 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:06:15,387 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:06:15,387 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:06:15,387 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:06:15,387 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:06:15,699 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:06:16,543 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:07:58,849 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:07:58,978 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:07:58,978 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:07:58,978 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:07:58,978 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:07:59,321 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:07:59,932 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:08:15,859 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:08:15,989 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:08:15,989 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:08:15,989 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:08:15,989 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:08:16,281 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:08:16,907 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:08:16,921 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-13 16:08:16,921 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-13 16:08:16,921 [INFO] -  * Restarting with stat
+2025-02-13 16:08:17,834 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:08:17,964 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:08:17,965 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:08:17,965 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:08:17,965 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:08:18,300 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:08:18,997 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:08:19,013 [WARNING] -  * Debugger is active!
+2025-02-13 16:08:19,015 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:08:21,831 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 16:08:21,862 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 16:08:21,862 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 16:08:21,866 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,868 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,871 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,875 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,880 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,881 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,886 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,896 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,903 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,932 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,946 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,958 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 16:08:21,959 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 16:08:21,967 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:21] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 16:08:22,492 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:22] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 16:08:22,497 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:22] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:08:22,500 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:22] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:08:22,506 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:22] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:08:22,510 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:22] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:08:22,520 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:08:22] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 16:09:26,561 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:26] "[31m[1mGET /waste/history HTTP/1.1[0m" 401 -
+2025-02-13 16:09:41,415 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 16:09:41,444 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 16:09:41,451 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 16:09:41,453 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,453 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,457 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,461 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,467 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,470 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,473 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,482 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,488 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,507 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,522 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,527 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 16:09:41,536 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 16:09:41,547 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:41] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 16:09:42,116 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:42] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 16:09:42,122 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:42] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:09:42,124 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:42] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:09:42,136 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:42] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:09:42,140 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:42] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:09:42,151 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:09:42] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 16:17:01,466 [INFO] -  * Detected change in '/home/juste/appython/recycy/swagger_doc.py', reloading
+2025-02-13 16:17:01,974 [INFO] -  * Restarting with stat
+2025-02-13 16:17:03,002 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:17:03,127 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:17:03,128 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:17:03,128 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:17:03,128 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:17:03,431 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:17:04,244 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:17:04,261 [WARNING] -  * Debugger is active!
+2025-02-13 16:17:04,263 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:17:08,966 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:08] "GET /api/spec.html HTTP/1.1" 200 -
+2025-02-13 16:17:09,003 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/jquery.slideto.min.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,005 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 16:17:09,005 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/jquery-1.8.0.min.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,008 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/jquery.wiggle.min.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,008 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/shred.bundle.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,010 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 16:17:09,011 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/jquery.ba-bbq.min.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,020 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/handlebars-1.0.0.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,023 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/underscore-min.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,029 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/backbone-min.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,038 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/swagger.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,063 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/swagger-ui.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,077 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/highlight.7.3.pack.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,086 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/lib/swagger-oauth.js HTTP/1.1" 200 -
+2025-02-13 16:17:09,094 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/images/pet_store_api.png HTTP/1.1" 200 -
+2025-02-13 16:17:09,095 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/images/wordnik_api.png HTTP/1.1" 200 -
+2025-02-13 16:17:09,608 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/images/logo_small.png HTTP/1.1" 200 -
+2025-02-13 16:17:09,616 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:17:09,619 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/resource_list.json HTTP/1.1" 200 -
+2025-02-13 16:17:09,629 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:17:09,634 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec HTTP/1.1" 200 -
+2025-02-13 16:17:09,646 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:09] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
+2025-02-13 16:17:51,315 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:17:51] "[35m[1mPOST /waste/classify HTTP/1.1[0m" 500 -
+2025-02-13 16:19:03,601 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:19:03] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2025-02-13 16:19:24,340 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:19:24] "[35m[1mPOST /waste/classify HTTP/1.1[0m" 500 -
+2025-02-13 16:19:43,053 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:19:43] "[35m[1mPOST /waste/classify HTTP/1.1[0m" 500 -
+2025-02-13 16:19:45,414 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:19:45] "[35m[1mPOST /waste/classify HTTP/1.1[0m" 500 -
+2025-02-13 16:20:30,101 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:20:30,950 [INFO] -  * Restarting with stat
+2025-02-13 16:20:32,076 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:20:32,216 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:20:32,216 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:20:32,216 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:20:32,216 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:20:32,546 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:20:33,337 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:20:33,353 [WARNING] -  * Debugger is active!
+2025-02-13 16:20:33,355 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:20:36,486 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:20:36] "[35m[1mPOST /waste/classify HTTP/1.1[0m" 500 -
+2025-02-13 16:21:21,826 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:21:22,334 [INFO] -  * Restarting with stat
+2025-02-13 16:21:23,575 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:21:23,712 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:21:23,712 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:21:23,712 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:21:23,712 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:21:24,273 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:21:24,989 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:21:25,003 [WARNING] -  * Debugger is active!
+2025-02-13 16:21:25,005 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:21:27,379 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:21:27] "[35m[1mPOST /waste/classify HTTP/1.1[0m" 500 -
+2025-02-13 16:21:48,749 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-13 16:21:49,302 [INFO] -  * Restarting with stat
+2025-02-13 16:21:50,453 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-13 16:21:50,590 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:21:50,590 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:21:50,590 [DEBUG] - Creating converter from 7 to 5
+2025-02-13 16:21:50,590 [DEBUG] - Creating converter from 5 to 7
+2025-02-13 16:21:51,012 [DEBUG] - Creating converter from 3 to 5
+2025-02-13 16:21:51,938 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-13 16:21:51,949 [WARNING] -  * Debugger is active!
+2025-02-13 16:21:51,951 [INFO] -  * Debugger PIN: 108-642-992
+2025-02-13 16:21:58,710 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:21:58] "POST /waste/classify HTTP/1.1" 200 -
+2025-02-13 16:23:02,154 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:23:02] "[31m[1mPOST /waste/classify HTTP/1.1[0m" 401 -
+2025-02-13 16:24:03,070 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:24:03] "GET /api/spec/_/static/css/screen.css HTTP/1.1" 200 -
+2025-02-13 16:24:03,070 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:24:03] "GET /api/spec/_/static/css/highlight.default.css HTTP/1.1" 200 -
+2025-02-13 16:24:07,912 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:24:07] "[31m[1mPOST /waste/classify HTTP/1.1[0m" 401 -
+2025-02-13 16:25:14,241 [INFO] - 127.0.0.1 - - [13/Feb/2025 16:25:14] "POST /waste/classify HTTP/1.1" 200 -
