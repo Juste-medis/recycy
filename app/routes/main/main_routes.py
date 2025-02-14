@@ -1,4 +1,4 @@
-from flask import request, jsonify, Blueprint
+from flask import request,current_app
 from app.routes.main.utils import process_image
 from app.models.waste import WasteHistory
 from app import db
@@ -27,7 +27,7 @@ class SingleUpload(Resource):
 
         # Traitement de l'image
         filename = secure_filename(file.filename)
-        file.save(os.path.join('/home/juste/appython/recycy/app/static/', filename))
+        file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
         predicted_class, confidence = process_image(file, filename)
 
         current_user = get_jwt_identity()

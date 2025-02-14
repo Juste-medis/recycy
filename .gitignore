@@ -1,3 +1,4 @@
+# created by virtualenv automatically
 .venv/
 *.pyc
 __pycache__/
@@ -15,3 +16,5 @@ build/
 *.db
 .logs/app.log
 .app/static
+.app.db
+app.db

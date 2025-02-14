@@ -492,3 +492,77 @@
 2025-02-14 04:07:16,731 [INFO] - 127.0.0.1 - - [14/Feb/2025 04:07:16] "GET /api/spec HTTP/1.1" 200 -
 2025-02-14 04:07:16,741 [INFO] - 127.0.0.1 - - [14/Feb/2025 04:07:16] "GET /api/spec/_/static/images/throbber.gif HTTP/1.1" 200 -
 2025-02-14 04:24:57,074 [INFO] - 127.0.0.1 - - [14/Feb/2025 04:24:57] "POST /waste/classify HTTP/1.1" 200 -
+2025-02-14 04:45:37,590 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-14 04:45:37,834 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 04:45:37,834 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 04:45:37,834 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 04:45:37,834 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 04:45:38,563 [DEBUG] - Creating converter from 3 to 5
+2025-02-14 04:45:39,299 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-14 04:45:39,328 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.12.95:5000
+2025-02-14 04:45:39,328 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-14 04:45:39,329 [INFO] -  * Restarting with stat
+2025-02-14 04:45:40,206 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-14 04:45:40,328 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 04:45:40,328 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 04:45:40,328 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 04:45:40,328 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 04:45:40,595 [DEBUG] - Creating converter from 3 to 5
+2025-02-14 04:45:41,233 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-14 04:45:41,256 [WARNING] -  * Debugger is active!
+2025-02-14 04:45:41,262 [INFO] -  * Debugger PIN: 138-095-726
+2025-02-14 10:01:13,108 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-14 10:01:13,332 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:01:13,332 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:01:13,333 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:01:13,333 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:01:13,883 [DEBUG] - Creating converter from 3 to 5
+2025-02-14 10:01:14,449 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-14 10:01:14,478 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-14 10:01:14,478 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-14 10:01:14,478 [INFO] -  * Restarting with stat
+2025-02-14 10:01:15,313 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-14 10:01:15,426 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:01:15,426 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:01:15,426 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:01:15,427 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:01:15,721 [DEBUG] - Creating converter from 3 to 5
+2025-02-14 10:01:16,295 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-14 10:01:16,321 [WARNING] -  * Debugger is active!
+2025-02-14 10:01:16,328 [INFO] -  * Debugger PIN: 138-095-726
+2025-02-14 10:01:20,657 [INFO] - 127.0.0.1 - - [14/Feb/2025 10:01:20] "POST /waste/classify HTTP/1.1" 200 -
+2025-02-14 10:01:41,560 [INFO] - 127.0.0.1 - - [14/Feb/2025 10:01:41] "POST /waste/classify HTTP/1.1" 200 -
+2025-02-14 10:02:06,497 [INFO] - 127.0.0.1 - - [14/Feb/2025 10:02:06] "POST /waste/classify HTTP/1.1" 200 -
+2025-02-14 10:06:26,571 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
+2025-02-14 10:06:26,979 [INFO] -  * Restarting with stat
+2025-02-14 10:09:24,858 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-14 10:09:24,973 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:09:24,973 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:09:24,973 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:09:24,973 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:09:25,229 [DEBUG] - Creating converter from 3 to 5
+2025-02-14 10:09:25,707 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-14 10:09:25,734 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.4.10.75:5000
+2025-02-14 10:09:25,734 [INFO] - [33mPress CTRL+C to quit[0m
+2025-02-14 10:09:25,734 [INFO] -  * Restarting with stat
+2025-02-14 10:09:26,542 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-02-14 10:09:26,649 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:09:26,649 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:09:26,649 [DEBUG] - Creating converter from 7 to 5
+2025-02-14 10:09:26,649 [DEBUG] - Creating converter from 5 to 7
+2025-02-14 10:09:26,902 [DEBUG] - Creating converter from 3 to 5
+2025-02-14 10:09:27,387 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-02-14 10:09:27,409 [WARNING] -  * Debugger is active!
+2025-02-14 10:09:27,410 [INFO] -  * Debugger PIN: 138-095-726
+2025-02-14 10:09:53,339 [INFO] - 127.0.0.1 - - [14/Feb/2025 10:09:53] "[35m[1mPOST /waste/classify HTTP/1.1[0m" 500 -
+2025-02-14 10:11:21,899 [INFO] - 127.0.0.1 - - [14/Feb/2025 10:11:21] "POST /waste/classify HTTP/1.1" 200 -
+2025-02-14 10:11:27,124 [INFO] - 127.0.0.1 - - [14/Feb/2025 10:11:27] "POST /waste/classify HTTP/1.1" 200 -
