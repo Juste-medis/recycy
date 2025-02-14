@@ -1,10 +1,10 @@
-from flask import request, jsonify
+from flask import request
 from flask_restful import Resource
 from flask_restful_swagger import swagger
 from flask_jwt_extended import create_access_token
 from datetime import timedelta
 from app.routes.auth.utils import validate_login, validate_registration
-from app.models.user import User
+
 from app import db
 from swagger_doc import login_doc, register_doc, logout_doc
 
@@ -17,7 +17,7 @@ class LoginResource(Resource):
 
         user, error = validate_login(email, password)
         if error:
-            return jsonify({"success": False, "message": error}), 400
+            return {"success": False, "message": error}, 400
 
         user_data = {
             "id": user.id,
@@ -46,7 +46,7 @@ class RegisterResource(Resource):
 
         user, error = validate_registration(username, email, password)
         if error:
-            return jsonify({"success": False, "message": error}), 400
+            return {"success": False, "message": error}, 400
 
         db.session.add(user)
         db.session.commit()

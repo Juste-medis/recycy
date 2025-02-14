@@ -8,4 +8,12 @@ class WasteHistory(db.Model):
     filename = db.Column(db.String(100), nullable=False)  # Nom du fichier image
     prediction = db.Column(db.String(50), nullable=False)  # Catégorie prédite
     confidence = db.Column(db.Float, nullable=False)  # Pourcentage de confiance
-    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)  # Date et heure de la prédiction
+    timestamp = db.Column(db.DateTime, nullable=False, default=datetime.now)  # Date et heure de la prédiction
+
+# 4. Centres de Recyclage (RecyclingCenter)
+class RecyclingCenter(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100))
+    address = db.Column(db.String(150))
+    city = db.Column(db.String(50))
+    contact = db.Column(db.String(20))

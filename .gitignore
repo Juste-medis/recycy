@@ -13,4 +13,5 @@ build/
 *.swp
 *~
 *.db
-logs/app.log
+.logs/app.log
+.app/static
