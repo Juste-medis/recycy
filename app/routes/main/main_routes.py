@@ -15,7 +15,7 @@ def index():
     return """hello"""
 
 class SingleUpload(Resource):
-    @jwt_required()
+    # @jwt_required()
     @swagger.operation(**upload_doc)
     def post(self):
         if 'file' not in request.files:
@@ -30,16 +30,16 @@ class SingleUpload(Resource):
         file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
         predicted_class, confidence = process_image(file, filename)
 
-        current_user = get_jwt_identity()
+        # current_user = get_jwt_identity()
 
-        # Enregistrement dans l'historique
-        waste_history = WasteHistory(
-            user_id=current_user,
-            filename=file.filename,
-            prediction=predicted_class,
-            confidence=confidence
-        )
-        db.session.add(waste_history)
+        # # Enregistrement dans l'historique
+        # waste_history = WasteHistory(
+        #     user_id=current_user,
+        #     filename=file.filename,
+        #     prediction=predicted_class,
+        #     confidence=confidence
+        # )
+        # db.session.add(waste_history)
         db.session.commit()
 
         return {

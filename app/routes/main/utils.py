@@ -7,7 +7,7 @@ import os
 from flask import current_app
 
 MODEL_PATH = 'models/waste_classifier_model.h5'
-CLASS_NAMES = ["électroniques", "automobiles", "batterie", "plastiques", "Ampoules", "métalliques", "organiques", "de papier", "verre"]
+CLASS_NAMES = ["électroniques", "automobiles", "batterie", "papier", "Ampoules", "métalliques", "organiques", "plastiques", "verre"]
 
 # Charger le modèle TensorFlow
 model = tf.keras.models.load_model(MODEL_PATH)

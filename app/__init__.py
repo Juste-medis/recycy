@@ -39,7 +39,9 @@ def create_app():
     from app.routes.main.main_routes import SingleUpload, WasteHistoryCall
     from app.routes.main.school_routes import CreateSchool,GetSchoolsResource , GetSchoolResource,UpdateSchoolResource,DeleteSchoolResource
     from app.routes.main.challenge_routes import CreateChallengeResource, GetChallengesResource,GetChallengeResource,UpdateChallengeResource,DeleteChallengeResource
+    from app.routes.site import IndexRessource
 
+    api.add_resource(IndexRessource, '/')
     api.add_resource(LoginResource, '/auth/login')
     api.add_resource(RegisterResource, '/auth/register')
     api.add_resource(LogoutResource, '/auth/logout')
