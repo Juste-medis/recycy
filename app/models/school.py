@@ -6,7 +6,7 @@ class School(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     contact_email = db.Column(db.String(120))
-    city = db.Column(db.String(50))
+    address = db.Column(db.String(50))
     created_at = db.Column(db.DateTime, default=datetime.now)
 
 # 4. Modèle Modules Éducatifs (EducationalModule)

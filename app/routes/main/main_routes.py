@@ -1,4 +1,4 @@
-from flask import request,current_app
+from flask import request, current_app
 from app.routes.main.utils import process_image
 from app.models.waste import WasteHistory
 from app import db
@@ -8,18 +8,19 @@ import os
 from flask_restful_swagger import swagger
 from swagger_doc import upload_doc, history_doc
 from flask_restful import Resource
- 
+
 
 def index():
     """Retourne un message de bienvenue."""
     return """hello"""
 
+
 class SingleUpload(Resource):
-    # @jwt_required()
+    @jwt_required()
     @swagger.operation(**upload_doc)
     def post(self):
         if 'file' not in request.files:
-            return  {"success": False, "message": "Aucun fichier fourni"}, 400
+            return {"success": False, "message": "Aucun fichier fourni"}, 400
 
         file = request.files['file']
         if file.filename == '':
@@ -30,16 +31,16 @@ class SingleUpload(Resource):
         file.save(os.path.join(current_app.config['UPLOAD_FOLDER'], filename))
         predicted_class, confidence = process_image(file, filename)
 
-        # current_user = get_jwt_identity()
+        current_user = get_jwt_identity()
 
-        # # Enregistrement dans l'historique
-        # waste_history = WasteHistory(
-        #     user_id=current_user,
-        #     filename=file.filename,
-        #     prediction=predicted_class,
-        #     confidence=confidence
-        # )
-        # db.session.add(waste_history)
+        # Enregistrement dans l'historique
+        waste_history = WasteHistory(
+            user_id=current_user,
+            filename=file.filename,
+            prediction=predicted_class,
+            confidence=confidence
+        )
+        db.session.add(waste_history)
         db.session.commit()
 
         return {
@@ -48,15 +49,17 @@ class SingleUpload(Resource):
             "prediction": predicted_class,
             "treatment": "organic",  # ou recyclables selon le cas
             "confidence": confidence
-        } , 200
+        }, 200
+
 
 class WasteHistoryCall(Resource):
     @jwt_required()
     @swagger.operation(**history_doc)
     def get(self):
         current_user = get_jwt_identity()
-        waste_history = WasteHistory.query.filter_by(user_id=current_user).all()
-        
+        waste_history = WasteHistory.query.filter_by(
+            user_id=current_user).all()
+
         history_data = [{
             "id": entry.id,
             "filename": entry.filename,

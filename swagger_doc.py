@@ -224,6 +224,30 @@ create_challenge_doc = {
     ]
 }
 
+create_cuserhallenge_doc = {
+    "nickname": "create_cuserhallenge_doc",
+    "notes": "Pour inscrire un utilisateur à un challenge",
+    "parameters": [
+        {
+            "name": "body",
+            "description": "Données de l'inscription à créer",
+            "required": True,
+            "allowMultiple": False,
+            "dataType": "object",
+            "paramType": "body",
+            "schema": {
+                "id": "UserChallenge",
+                "title": "string",
+                "description": "string"
+            }
+        }
+    ],
+    "responseMessages": [
+        {"code": 201, "message": "Incription éffectuée créé avec succès"},
+        {"code": 400, "message": "Erreur lors de l'inscription"}
+    ]
+}
+
 # Récupérer tous les challenges
 get_challenges_doc = {
     "nickname": "get_challenges_doc",
@@ -300,5 +324,110 @@ delete_challenge_doc = {
     "responseMessages": [
         {"code": 200, "message": "Challenge supprimé avec succès"},
         {"code": 404, "message": "Challenge non trouvé"}
+    ]
+}
+# Créer un module éducatif
+create_module = {
+    "notes": "Créer un nouveau module éducatif",
+    "nickname": "create_module",
+    "parameters": [
+        {
+            "name": "body",
+            "description": "Données du module à créer",
+            "required": True,
+            "allowMultiple": False,
+            "dataType": "object",
+            "paramType": "body",
+            "schema": {
+                "school_id": "integer",
+                "title": "string",
+                "description": "string",
+                "module_type": "string"
+            }
+        }
+    ],
+    "responseMessages": [
+        {"code": 201, "message": "Module créé avec succès"},
+        {"code": 400, "message": "Erreur de création du module"}
+    ]
+}
+
+# Récupérer la liste de tous les modules
+get_modules = {
+    "nickname": "get_modules",
+    "notes": "Récupérer la liste de tous les modules éducatifs",
+    "responseMessages": [
+        {"code": 200, "message": "Liste des modules récupérée avec succès"},
+        {"code": 500, "message": "Erreur lors de la récupération des modules"}
+    ]
+}
+
+# Récupérer les détails d’un module
+get_module = {
+    "nickname": "get_module",
+    "notes": "Récupérer les détails d’un module éducatif",
+    "parameters": [
+        {
+            "name": "module_id",
+            "description": "ID du module",
+            "required": True,
+            "dataType": "integer",
+            "paramType": "path"
+        }
+    ],
+    "responseMessages": [
+        {"code": 200, "message": "Détails du module récupérés avec succès"},
+        {"code": 404, "message": "Module non trouvé"}
+    ]
+}
+
+# Mettre à jour un module éducatif
+modify_module = {
+    "nickname": "modify_module",
+    "notes": "Mettre à jour les informations d’un module éducatif",
+    "parameters": [
+        {
+            "name": "module_id",
+            "description": "ID du module à mettre à jour",
+            "required": True,
+            "dataType": "integer",
+            "paramType": "path"
+        },
+        {
+            "name": "body",
+            "description": "Nouvelles informations du module",
+            "required": True,
+            "allowMultiple": False,
+            "dataType": "object",
+            "paramType": "body",
+            "schema": {
+                "title": "string",
+                "description": "string",
+                "module_type": "string"
+            }
+        }
+    ],
+    "responseMessages": [
+        {"code": 200, "message": "Module mis à jour avec succès"},
+        {"code": 400, "message": "Erreur lors de la mise à jour du module"}
+    ]
+}
+
+# Supprimer un module éducatif
+delete_module = {
+    "nickname": "delete_module",
+    "notes": "Supprimer un module éducatif",
+    "parameters": [
+        {
+            "name": "module_id",
+            "description": "ID du module à supprimer",
+            "required": True,
+            "dataType": "integer",
+            "paramType": "path"
+        }
+    ],
+    "responseMessages": [
+        {"code": 200, "message": "Module supprimé avec succès"},
+        {"code": 404, "message": "Module non trouvé"}
     ]
 }

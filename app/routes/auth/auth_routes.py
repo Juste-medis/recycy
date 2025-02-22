@@ -8,6 +8,7 @@ from app.routes.auth.utils import validate_login, validate_registration
 from app import db
 from swagger_doc import login_doc, register_doc, logout_doc
 
+
 class LoginResource(Resource):
     @swagger.operation(**login_doc)
     def post(self):
@@ -36,6 +37,7 @@ class LoginResource(Resource):
             "user_id": user.id,
         }, 200
 
+
 class RegisterResource(Resource):
     @swagger.operation(**register_doc)
     def post(self):
@@ -61,12 +63,13 @@ class RegisterResource(Resource):
             additional_claims=user_data,
             expires_delta=timedelta(days=15)
         )
-        return  {
+        return {
             "access_token": access_token,
             "success": True,
             "message": "Inscription réussie",
             "user_id": user.id,
         }, 201
+
 
 class LogoutResource(Resource):
     @swagger.operation(**logout_doc)
