@@ -47,7 +47,7 @@ class SingleUpload(Resource):
             "success": True,
             "message": "Classification réussie",
             "prediction": predicted_class,
-            "treatment": "organic",  # ou recyclables selon le cas
+            "treatment": predicted_class,
             "confidence": confidence
         }, 200
 
