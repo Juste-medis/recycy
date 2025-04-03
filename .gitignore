@@ -18,3 +18,4 @@ build/
 .app/static
 .app.db
 app.db
+config.py
