@@ -1,3 +1,4 @@
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from config import Config
@@ -7,18 +8,20 @@ import logging
 from flask_restful_swagger import swagger
 from flask_restful import Api
 from flask_migrate import Migrate
+from flask_mail import Mail, Message
 
 
 jwt = JWTManager()
-
 db = SQLAlchemy()
-
-
+ 
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
-    app.config['JWT_SECRET_KEY'] = '*PFiPoWY1vT]v6bL-Ty-?U)[L(}/yF)'
+    
+    mail = Mail(app)
 
+    app.mail = mail 
+    
     # Autoriser toutes les origines
     CORS(app)
 
@@ -36,7 +39,7 @@ def create_app():
     )
     # # Enregistrement des blueprints
 
-    from app.routes.auth.auth_routes import LoginResource, RegisterResource, LogoutResource
+    from app.routes.auth.auth_routes import LoginResource, RegisterResource, LogoutResource ,PasswordResetRequestResource,PasswordResetConfirmResource,PasswordChangeResource
     from app.routes.main.main_routes import SingleUpload, WasteHistoryCall
     from app.routes.main.school_routes import CreateSchool, GetSchoolsResource, GetSchoolResource, UpdateSchoolResource, DeleteSchoolResource, GetEducationalModules, CreateEducationalModule, UpdateEducationalModule, GetEducationalModule, DeleteEducationalModule
     from app.routes.main.challenge_routes import CreateChallengeResource, GetChallengesResource, GetChallengeResource, UpdateChallengeResource, DeleteChallengeResource, CreateUserChallenge
@@ -46,6 +49,9 @@ def create_app():
     api.add_resource(LoginResource, '/auth/login')
     api.add_resource(RegisterResource, '/auth/register')
     api.add_resource(LogoutResource, '/auth/logout')
+    api.add_resource(PasswordResetRequestResource, '/auth/ressetpass')
+    api.add_resource(PasswordResetConfirmResource, '/auth/confirm/passwordchange')
+    api.add_resource(PasswordChangeResource, '/auth/changepassword')
 
     api.add_resource(SingleUpload, '/waste/classify')
     api.add_resource(WasteHistoryCall, '/waste/history')

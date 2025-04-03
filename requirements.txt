@@ -13,3 +13,4 @@ flask-restplus==0.13.0
 flask_restful_swagger==0.20
 schema==0.7.7
 Flask-Migrate==4.1.0
+Flask-Mail==0.10.0

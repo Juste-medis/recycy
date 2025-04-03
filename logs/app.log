@@ -1,17 +1,67 @@
-2025-03-04 21:28:12,767 [INFO] -  * Detected change in '/home/juste/appython/recycy/app/routes/main/main_routes.py', reloading
-2025-03-04 21:28:13,300 [INFO] -  * Restarting with stat
-2025-03-04 21:28:14,104 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
-2025-03-04 21:28:14,251 [DEBUG] - Creating converter from 7 to 5
-2025-03-04 21:28:14,251 [DEBUG] - Creating converter from 5 to 7
-2025-03-04 21:28:14,251 [DEBUG] - Creating converter from 7 to 5
-2025-03-04 21:28:14,251 [DEBUG] - Creating converter from 5 to 7
-2025-03-04 21:28:14,684 [DEBUG] - matplotlib data path: /home/juste/appython/recycy/env/lib/python3.12/site-packages/matplotlib/mpl-data
-2025-03-04 21:28:14,686 [DEBUG] - CONFIGDIR=/home/juste/.config/matplotlib
-2025-03-04 21:28:14,686 [DEBUG] - interactive is False
-2025-03-04 21:28:14,686 [DEBUG] - platform is linux
-2025-03-04 21:28:14,715 [DEBUG] - CACHEDIR=/home/juste/.cache/matplotlib
-2025-03-04 21:28:14,716 [DEBUG] - Using fontManager instance from /home/juste/.cache/matplotlib/fontlist-v390.json
-2025-03-04 21:28:15,184 [DEBUG] - Creating converter from 3 to 5
-2025-03-04 21:28:15,663 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
-2025-03-04 21:28:15,689 [WARNING] -  * Debugger is active!
-2025-03-04 21:28:15,691 [INFO] -  * Debugger PIN: 142-727-164
+Traceback (most recent call last):
+  File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 384, in <module>
+    app_module = load_app()
+  File "/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/wsgi-loader.py", line 88, in load_app
+    spec.loader.exec_module(app_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/bazr6101/public_html/visionrec/passenger_wsgi.py", line 15, in <module>
+    application = create_app()
+  File "/home/bazr6101/public_html/visionrec/app/__init__.py", line 42, in create_app
+    from app.routes.auth.auth_routes import LoginResource, RegisterResource, LogoutResource #,PasswordResetRequestResource,PasswordResetConfirmResource,PasswordChangeResource
+  File "/home/bazr6101/public_html/visionrec/app/routes/auth/auth_routes.py", line 15, in <module>
+    from app.models import User
+ImportError: cannot import name 'User' from 'app.models' (unknown location)
+🚀 Application démarrée avec Passenger
+Erreur avec OpenCV : local variable 'image_path' referenced before assignment, tentative avec PIL
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 1s/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 1s/step
+Erreur avec OpenCV : local variable 'image_path' referenced before assignment, tentative avec PIL
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 35ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 53ms/step
+2025-03-28 12:39:42,833 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-03-28 12:39:43,064 [DEBUG] - Creating converter from 7 to 5
+2025-03-28 12:39:43,064 [DEBUG] - Creating converter from 5 to 7
+2025-03-28 12:39:43,064 [DEBUG] - Creating converter from 7 to 5
+2025-03-28 12:39:43,064 [DEBUG] - Creating converter from 5 to 7
+2025-03-28 12:39:43,698 [DEBUG] - Creating converter from 3 to 5
+2025-03-28 12:39:44,748 [WARNING] - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+🚀 Application démarrée avec Passenger
+Erreur avec OpenCV : local variable 'image_path' referenced before assignment, tentative avec PIL
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 1s/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 1s/step
+🚀 Application démarrée avec Passenger
+Erreur avec OpenCV : local variable 'image_path' referenced before assignment, tentative avec PIL
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 1s/step🚀 Application démarrée avec Passenger
+Erreur avec OpenCV : local variable 'image_path' referenced before assignment, tentative avec PIL
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 1s/step🚀 Application démarrée avec Passenger
+Erreur avec OpenCV : local variable 'image_path' referenced before assignment, tentative avec PIL
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 1s/step2025-03-28 12:49:35,571 [DEBUG] - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2025-03-28 12:49:35,799 [DEBUG] - Creating converter from 7 to 5
+2025-03-28 12:49:35,799 [DEBUG] - Creating converter from 5 to 7
+2025-03-28 12:49:35,799 [DEBUG] - Creating converter from 7 to 5
+2025-03-28 12:49:35,799 [DEBUG] - Creating converter from 5 to 7
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger
+🚀 Application démarrée avec Passenger

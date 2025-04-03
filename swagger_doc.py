@@ -431,3 +431,65 @@ delete_module = {
         {"code": 404, "message": "Module non trouvé"}
     ]
 }
+password_reset_request_doc = {
+    'parameters': [
+        {
+            'name': 'email',
+            'description': 'User email',
+            'required': True,
+            'dataType': 'string',
+            'paramType': 'body'
+        }
+    ],
+    'responseMessages': [
+        {'code': 200, 'message': 'Reset link sent'},
+        {'code': 400, 'message': 'Invalid email'}
+    ]
+}
+
+password_reset_confirm_doc = {
+    'parameters': [
+        {
+            'name': 'token',
+            'description': 'Password reset token',
+            'required': True,
+            'dataType': 'string',
+            'paramType': 'body'
+        },
+        {
+            'name': 'new_password',
+            'description': 'New password',
+            'required': True,
+            'dataType': 'string',
+            'paramType': 'body'
+        }
+    ],
+    'responseMessages': [
+        {'code': 200, 'message': 'Password reset successful'},
+        {'code': 400, 'message': 'Invalid token or password'}
+    ]
+}
+
+password_change_doc = {
+    'parameters': [
+        {
+            'name': 'current_password',
+            'description': 'Current password',
+            'required': True,
+            'dataType': 'string',
+            'paramType': 'body'
+        },
+        {
+            'name': 'new_password',
+            'description': 'New password',
+            'required': True,
+            'dataType': 'string',
+            'paramType': 'body'
+        }
+    ],
+    'responseMessages': [
+        {'code': 200, 'message': 'Password changed successfully'},
+        {'code': 400, 'message': 'Invalid current password or new password'},
+        {'code': 401, 'message': 'Unauthorized'}
+    ]
+}

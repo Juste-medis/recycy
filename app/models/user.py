@@ -26,7 +26,8 @@ class User(db.Model):
     level = db.Column(db.Enum(UserLevel),
                       default=UserLevel.STANDARD)
     created_at = db.Column(db.DateTime, default=datetime.now)
-
+    password_reset_code = db.Column(db.String(6), nullable=True)
+    password_reset_code_expiry = db.Column(db.DateTime, nullable=True)
 
 class UserToken(db.Model):
     id = db.Column(db.Integer, primary_key=True)

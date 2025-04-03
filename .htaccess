@@ -1,8 +1,10 @@
-PassengerEnabled on
-
-PassengerAppRoot /home/bazr6101/public_html/visionrec
-PassengerPython /home/bazr6101/public_html/visionrec/venv/bin/python3
-
-
-PassengerAppEnv development
-PassengerFriendlyErrorPages on
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/bazr6101/public_html/visionrec"
+PassengerBaseURI "/"
+PassengerPython "/home/bazr6101/virtualenv/public_html/visionrec/3.9/bin/python"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+#PassengerEnabled on
+#PassengerAppRoot /home/bazr6101/public_html/visionrec
+#PassengerPython /home/bazr6101/public_html/visionrec/venv/bin/python3
+#PassengerAppEnv development
+#PassengerFriendlyErrorPages on

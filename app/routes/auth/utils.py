@@ -25,3 +25,18 @@ def validate_registration(username, email, password):
     
     user = User(username=username, email=email, password= generate_password_hash(password))
     return user, None
+
+def validate_password_reset_request(email):
+    if not email:
+        return "Email is required"
+    if not User.query.filter_by(email=email).first():
+        return "No account found with this email"
+    return None
+
+def validate_password_reset_confirm(email, new_password):
+    user = User.query.filter_by(email=email).first()
+    if not user:
+        return None, "User not found"
+    if not new_password or len(new_password) < 8:
+        return None, "Password must be at least 8 characters"
+    return user, None
