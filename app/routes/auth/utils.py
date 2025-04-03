@@ -38,5 +38,5 @@ def validate_password_reset_confirm(email, new_password):
     if not user:
         return None, "User not found"
     if not new_password or len(new_password) < 8:
-        return None, "Password must be at least 8 characters"
+        return None, "Password must be at least 8 characters please"
     return user, None
